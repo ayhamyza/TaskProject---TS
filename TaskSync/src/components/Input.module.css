@@ -1,0 +1,21 @@
+.container {
+    width: 63.8rem;
+    height: 5.4rem;
+
+    align-items: center;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--gray-500);
+
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: var(--gray-300);
+}
+input {
+    padding-left: 1.6rem;
+}
+input::placeholder{
+    padding: 1.6rem;
+}

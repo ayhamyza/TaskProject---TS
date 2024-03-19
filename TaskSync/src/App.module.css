@@ -1,0 +1,31 @@
+.content {
+    background: var(--gray-600);
+
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto auto 73.6rem;
+    grid-template-areas: 
+    "header"
+    "input"
+    "listHeader"
+    ;
+}
+.header {
+    grid-area: header;
+}
+
+.taskInfoContainer {
+    grid-area: input;
+}
+.infoContainer {
+    display: flex;
+    gap: 8px;
+}
+.listHeader {
+    grid-area: listHeader;
+}
+
+.taskInfoContainer input, .taskInfoContainer button {
+    transform: translateY(-50%);
+    margin-bottom: -2.7rem;
+}
