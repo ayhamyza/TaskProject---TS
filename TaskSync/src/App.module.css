@@ -25,6 +25,15 @@
     grid-area: listHeader;
 }
 
+.listHeader{
+    margin-top: 1.2rem;
+}
+.listContent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .taskInfoContainer input, .taskInfoContainer button {
     transform: translateY(-50%);
     margin-bottom: -2.7rem;

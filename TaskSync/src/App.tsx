@@ -6,9 +6,10 @@ import { Header } from './components/Header'
 import { Input } from './components/Input'
 import { Button } from './components/Button'
 import { Header as ListHeader} from './components/List/Header'
-import { Empty } from './components/List/Empty'
+/*import { Empty } from './components/List/Empty'*/
 
 import './global.css'
+import { Item } from './components/List/Item'
 
 
 
@@ -36,7 +37,11 @@ export function App() {
 
           <div className= {styles.listHeader}>
             <ListHeader/>
-            <Empty/>
+            <div className={styles.listContent}>
+              <Item/>
+              <Item/>
+          
+            </div>
           </div>
         </div>   
       </section>

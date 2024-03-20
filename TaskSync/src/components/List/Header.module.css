@@ -1,7 +1,7 @@
  .container span{
     color: var(--gray-200);
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
     background-color: var(--gray-400);
     border-radius: 999px;
@@ -12,8 +12,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 9.2rem; 
+    margin-top: 6.4rem; 
+    margin-bottom: 2.4rem;
     margin-left: 0;
+
 
     width: 73.6rem; 
 }
@@ -21,12 +23,13 @@
     color: var(--blue);
     display: flex;
     gap: .8rem;
-    
+    align-items: center;
 }
 .container aside:nth-child(2) {
     color: var(--purple);
     display: flex;
     gap: .8rem;
+    align-items: center;
 }
 
 .container aside p {

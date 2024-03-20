@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 73.6rem;
+
+    background: var(--gray-500);
+    border-radius: 8px;
+}
+
+.container label {
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.container label input[type='checkbox'] {
+    display: none;
+}
+
+.checkbox {
+    border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
+
+    transition: 0.2s all;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    background: var(--purple-dark);
+    color: var(--gray-100);
+    margin: 1.6rem 1.6rem 3.2rem;
+}
+
+
+.paragraph {
+    text-align:inherit;
+    margin: 1.6rem auto;
+    width: 60.2rem;
+    font-size: 1.4rem;
+    color: var(--gray-100);
+}
+.container button {
+    border: none;
+    background-color: transparent;
+    border-radius: 4px;
+
+    width: 1.8rem;
+    height: 1.8rem;
+    
+    transition: 0.2s background-color;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 2.3rem 1.6rem 3.2rem auto;
+}
+
